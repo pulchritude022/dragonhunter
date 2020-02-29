@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<Project xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Layout combineReferences="false" width="200" height="200" buffer="0" Name="Default" defaultCount="1" dpi="100" drawBorder="true">
+    <exportRotation>0</exportRotation>
+    <exportTransparentBackground>false</exportTransparentBackground>
+    <exportPDFAsPageBack>false</exportPDFAsPageBack>
+    <exportWidth>0</exportWidth>
+    <exportHeight>0</exportHeight>
+    <zoom>1</zoom>
+  </Layout>
+  <Layout combineReferences="false" width="750" height="1050" buffer="0" Name="Dragon Attacks" defaultCount="1" dpi="300" drawBorder="true">
+    <Element variable="Level: @[level]" type="Text" x="322" y="7" width="106" height="51" borderthickness="0" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Level" font="Arial;12;1;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="@[name]" type="FormattedText" x="78" y="72" width="594" height="156" borderthickness="0" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Name" font="Pirata One;56;0;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="Defense" type="Text" x="50" y="720" width="137" height="40" borderthickness="0" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Defense Title" font="Arial;18;1;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="@[defense]" type="Text" x="44" y="761" width="150" height="150" borderthickness="0" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Defense" font="Pirata One;70;0;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="Damage" type="Text" x="555" y="719" width="137" height="40" borderthickness="0" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Damage Title" font="Arial;18;1;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="@[damage]" type="Text" x="548" y="761" width="150" height="150" borderthickness="0" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Damage" font="Pirata One;70;0;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="@[zones]" type="Text" x="222" y="785" width="298" height="99" borderthickness="0" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Zones" font="Pirata One;40;0;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Reference RelativePath="dragon-attacks.csv" Default="true" />
+    <exportRotation>0</exportRotation>
+    <exportTransparentBackground>false</exportTransparentBackground>
+    <exportPDFAsPageBack>false</exportPDFAsPageBack>
+    <exportWidth>0</exportWidth>
+    <exportHeight>0</exportHeight>
+    <zoom>0.75</zoom>
+  </Layout>
+  <Layout combineReferences="false" width="750" height="1050" buffer="0" Name="Dragon Movement" defaultCount="1" dpi="300" drawBorder="true">
+    <Element variable="Level: @[level]" type="Text" x="322" y="7" width="106" height="51" borderthickness="0" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Level" font="Arial;12;1;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="@[name]" type="FormattedText" x="78" y="72" width="594" height="156" borderthickness="0" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Name" font="Pirata One;56;0;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="@[description]" type="Text" x="80" y="593" width="589" height="326" borderthickness="0" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Description" font="Pirata One;40;0;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Reference RelativePath="dragon-movement.csv" Default="true" />
+    <exportRotation>0</exportRotation>
+    <exportTransparentBackground>false</exportTransparentBackground>
+    <exportPDFAsPageBack>false</exportPDFAsPageBack>
+    <exportWidth>0</exportWidth>
+    <exportHeight>0</exportHeight>
+    <zoom>0.75</zoom>
+  </Layout>
+  <Layout combineReferences="false" width="750" height="1050" buffer="0" Name="Player Attacks" defaultCount="1" dpi="300" drawBorder="true">
+    <Reference RelativePath="player-attacks.csv" Default="true" />
+    <exportRotation>0</exportRotation>
+    <exportTransparentBackground>false</exportTransparentBackground>
+    <exportPDFAsPageBack>false</exportPDFAsPageBack>
+    <exportWidth>0</exportWidth>
+    <exportHeight>0</exportHeight>
+    <zoom>0.75</zoom>
+  </Layout>
+  <Layout combineReferences="false" width="1200" height="1200" buffer="0" Name="Dragons" defaultCount="1" dpi="300" drawBorder="true">
+    <Element variable="@[name]" type="Text" x="109" y="20" width="982" height="224" borderthickness="0" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Name" font="Pirata One;60;0;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="@[image]" type="Graphic" x="250" y="250" width="700" height="700" borderthickness="0" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="0" verticalalign="0" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Image" font="Arial;12;0;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="Health\n@[l1a] / @[l2a] / @[l3a]" type="Text" x="42" y="432" width="180" height="150" borderthickness="0" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="0" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Health" font="Arial;24;1;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="Movement\n@[l1m] / @[l2m] / @[l3m]" type="Text" x="44" y="666" width="180" height="150" borderthickness="0" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="0" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Movement" font="Arial;24;1;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="Defense\n@[defense]" type="Text" x="988" y="302" width="180" height="150" borderthickness="0" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="0" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Defense" font="Arial;24;1;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="Attacks\n@[overt attacks]" type="Text" x="988" y="484" width="180" height="150" borderthickness="0" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="0" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Overt Attacks" font="Arial;24;1;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="Secret Attacks\n@[secret attacks]" type="Text" x="984" y="674" width="180" height="150" borderthickness="0" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="0" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Secret Attacks" font="Arial;24;1;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="Item Rewards\n@[item rewards]" type="Text" x="378" y="1002" width="180" height="150" borderthickness="0" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="0" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Item Rewards" font="Arial;24;1;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="Gold Reward\n@[gold reward]" type="Text" x="632" y="1004" width="180" height="150" borderthickness="0" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="0" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Gold Rewards" font="Arial;24;1;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Reference RelativePath="dragons.csv" Default="true" />
+    <exportRotation>0</exportRotation>
+    <exportTransparentBackground>false</exportTransparentBackground>
+    <exportPDFAsPageBack>false</exportPDFAsPageBack>
+    <exportWidth>0</exportWidth>
+    <exportHeight>0</exportHeight>
+    <zoom>0.5</zoom>
+  </Layout>
+  <Layout combineReferences="false" width="520" height="800" buffer="0" Name="Weapons" defaultCount="1" dpi="300" drawBorder="true">
+    <Element variable="@[number]" type="Text" x="223" y="3" width="73" height="21" borderthickness="0" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Number" font="Pirata One;10;1;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="@[name]" type="Text" x="28" y="26" width="476" height="91" borderthickness="0" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Name" font="Pirata One;28;0;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="@[image]" type="Graphic" x="44" y="141" width="431" height="357" borderthickness="0" autoscalefont="false" lockaspect="true" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Image" font="Arial;12;0;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="@[base attack]" type="Text" x="186" y="555" width="147" height="138" borderthickness="0" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="0" wordspace="0" justifiedtext="false" name="Attack" font="Pirata One;93;0;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="Dice: @[dice]" type="Text" x="354" y="558" width="122" height="67" borderthickness="0" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Dice" font="Arial;12;1;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="Targets: @[targets]" type="Text" x="354" y="626" width="123" height="66" borderthickness="0" autoscalefont="false" lockaspect="false" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Targets" font="Arial;12;1;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Element variable="@[range]" type="Graphic" x="34" y="557" width="135" height="139" borderthickness="0" autoscalefont="false" lockaspect="true" keeporiginalsize="false" outlinethickness="0" rotation="0" horizontalalign="1" verticalalign="1" opacity="255" tilesize="" lineheight="14" wordspace="0" justifiedtext="false" name="Range" font="Arial;12;0;0;0;0" elementcolor="0x000000FF" bordercolor="0x000000FF" backgroundcolor="0x00000000" enabled="true" outlinecolor="0x000000FF" />
+    <Reference RelativePath="weapons.csv" Default="true" />
+    <exportRotation>0</exportRotation>
+    <exportTransparentBackground>false</exportTransparentBackground>
+    <exportPDFAsPageBack>false</exportPDFAsPageBack>
+    <exportWidth>0</exportWidth>
+    <exportHeight>0</exportHeight>
+    <zoom>1</zoom>
+  </Layout>
+  <Layout combineReferences="false" width="520" height="800" buffer="0" Name="Items" defaultCount="1" dpi="300" drawBorder="true">
+    <Reference RelativePath="items.csv" Default="true" />
+    <exportRotation>0</exportRotation>
+    <exportTransparentBackground>false</exportTransparentBackground>
+    <exportPDFAsPageBack>false</exportPDFAsPageBack>
+    <exportWidth>0</exportWidth>
+    <exportHeight>0</exportHeight>
+    <zoom>1</zoom>
+  </Layout>
+  <translatorName>Incept</translatorName>
+  <defaultDefineReferenceType>CSV</defaultDefineReferenceType>
+  <overrideDefineReferenceName />
+  <jsEscapeSingleQuotes>false</jsEscapeSingleQuotes>
+  <jsTildeMeansCode>true</jsTildeMeansCode>
+  <jsKeepFunctions>true</jsKeepFunctions>
+</Project>

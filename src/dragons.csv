@@ -1,0 +1,4 @@
+Count,Name,L1A,L2A,L3A,L1M,L2M,L3M,Defense,Overt Attacks,Secret Attacks,Item Rewards,Gold Reward,Image
+1,Green Dragon,20,0,0,8,0,0,9,4,2,"3, 4",15,res\dragons\dragcave\Dark_Lumina_female.png
+1,Fire Drake,20,2,0,6,2,0,10,3,3,"5, 6",20,res\dragons\dragcave\Carmine_Wyvern_adult.png
+1,Monarch,20,5,0,5,5,0,10,6,2,"7, 8",25,res\dragons\dragcave\Monarch_female.png

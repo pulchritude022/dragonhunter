@@ -1,0 +1,9 @@
+Count,Number,Name,Base Attack,Dice,Targets,Image,Range
+4,1,Wooden Sword,5,1,1,res\items\ravenmore\woodSword.png,res\range\close.png
+4,2,Short Bow,4,1,1,res\items\ravenmore\bow.png,res\range\arc.png
+1,3,Steel Sword,6,1,1,res\items\ravenmore\upg_sword.png,res\range\close.png
+1,4,Hunters Bow,4,1,2,res\items\ravenmore\upg_bow.png,res\range\far-arc.png
+1,5,Hammer,5,1,2,res\items\ravenmore\hammer.png,res\range\close.png
+1,6,Axe,7,1,1,res\items\ravenmore\axe.png,res\range\close.png
+1,7,Dagger,3,2,1,res\items\ravenmore\dagger.png,res\range\close.png
+1,8,Spear,4,1,2,res\items\ravenmore\upg_spear.png,res\range\across.png

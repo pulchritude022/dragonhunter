@@ -1,0 +1,11 @@
+Count,Name,Level,Description
+5,Face Threat,1,Face the player with the highest Threat
+1,Turn Right,1,Rotate to the right
+1,Turn Left,1,Rotate to the left
+1,Spin,1,Rotate twice to face backwards
+2,Stay Still,1,Dragon doesn't move
+5,Attack Threat,2,Face the player with the highest Threat and immediately peform one attack
+1,Dive Right,2,Rotate to the right and immediately peform one attack
+1,Dive Left,2,Rotate to the left and immediately peform one attack
+1,Spin Attack,2,Rotate twice to face backwards and immediately peform one attack
+2,Pounce,2,Dragon doesn't move and immediately peform one attack

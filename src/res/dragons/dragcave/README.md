@@ -1,0 +1,1 @@
+https://dragcave.fandom.com/wiki/Dragon_Types

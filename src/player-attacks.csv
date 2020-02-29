@@ -1,0 +1,7 @@
+Count,Name,Type,Bonuses
+5,Basic Attack,Melee,
+2,Strong Attack,Melee,+1 Attack
+5,Basic Attack,Ranged,
+2,Strong Attack,Ranged,+1 Attack
+5,Basic Movement,Movement,Move 1 space
+2,Leap,Movement,Move 2 spaces

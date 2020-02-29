@@ -1,0 +1,10 @@
+Count,Name,Level,Defense,Damage,Zones,Image,Description
+3,Fireball,1,7,1,Front,,
+2,Fire Breath,1,9,1,Front,,
+2,Bite,1,8,1,Front,,
+1,Inferno,1,11,2,Front,,
+3,Wing Attack,1,8,1,Right,,
+3,Wing Attack,1,8,1,Left,,
+2,Scratch,1,7,1,Right,,
+2,Scratch,1,7,1,Left,,
+2,Tail Swipe,1,10,2,Back,,
